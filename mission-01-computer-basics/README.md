@@ -16,7 +16,7 @@ The objective of this mission is to understand fundamental computer concepts:
 ---
 
 ## 3. Commands or tools used
-- **Text Editor (VS Code / TextEdit):** Used to write, edit, and format Markdown assignment documentation.
+- **VS Code:** Used to write, edit, and format Markdown assignment documentation.
 - **Git:** Used to stage, commit, and push completed mission documentation to GitHub.
 - **Terminal:** Used for repository navigation and running Git version control commands.
 
@@ -71,5 +71,5 @@ The objective of this mission is to understand fundamental computer concepts:
 
 ---
 
-## 6. How I solved it
+## 6. How I resolved it
 - The definitions : application software is focused on assisting the user with direct goals, while utility software focuses on supporting, maintaining or protecting the system itself.

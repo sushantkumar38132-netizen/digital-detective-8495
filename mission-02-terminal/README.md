@@ -17,7 +17,26 @@ The objective of this mission is to understand and use the Command Line Interfac
 
 ---
 
-## 3. Understanding
+## 3. Commands / tools used
+| Command / Tool | Purpose |
+| --- | --- |
+| `pwd` | Displays the path of the current working directory. |
+| `ls` | Lists directory contents. |
+| `cd` | Changes the current shell working directory. |
+| `mkdir` | Creates a new folder/directory. |
+| `touch` | Creates a new empty file. |
+| `echo` | Outputs strings of text. |
+| `cat` | Reads and concatenates file contents. |
+| `cp` | Copies files or directories to a new target path while keeping the original. |
+| `mv` | Moves or renames files and folders. |
+| `\|` (Pipe) | Redirects the standard output (`stdout`) of one command into the standard input (`stdin`) of the next. |
+| `head` | Outputs the first few lines of an input stream or file. |
+| `brew` | The Homebrew package manager for macOS used to manage software packages. |
+| `git` | Stages, commits, and pushes mission documentation to GitHub. |
+
+---
+
+## 4. Understanding
 
 ### Task 2.1 — Basic Terminal Operations Table
 
@@ -80,10 +99,10 @@ A package manager automates the entire software installation, configuration, upd
 
 ---
 
-## 4. Difficulties faced
+## 5. Difficulties faced
 - Understanding how data flows through a pipeline without creating an intermediate physical file on the disk.
 
 ---
 
-## 5. How I solved it
+## 6. How I resolved it
 - Studied command manual pages (`man ls`, `man head`) and verified the filtered output of `ls -la | head -n 5`.
