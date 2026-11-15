@@ -31,7 +31,7 @@ The objective of this mission is to explore core operating system functions:
 
 ---
 
-## 4. My understanding
+## 4. Understanding
 
 ### Task 3.1 — Explore your operating system
 
