@@ -1,9 +1,9 @@
 # The Digital Detective - Independent Learning Assignment
 
 ## Overview
-This repository contains the completed missions for the Digital Detective Independent Learning Assignment. Each mission explores fundamental computing topics, from terminal operations and operating systems to Python programming, Git workflows, and networking.
+This repository contains the completed missions for The Digital Detective Independent Learning Assignment. Each mission shows fundamental computing topics, from terminal operations and operating systems to Python programming, Git and networking.
 
-> **Note:** Each mission in this repository is completed, documented, and committed separately.
+> Each mission in this repository is completed, documented, and committed separately.
 
 ---
 
@@ -24,4 +24,4 @@ This repository contains the completed missions for the Digital Detective Indepe
 ---
 
 ## Evidence
-All supporting screenshots and privacy-safe terminal outputs are organized in the [`evidence/`](evidence/) directory.
+All supporting screenshots and terminal outputs are organized in the [`evidence/`](evidence/) directory.
