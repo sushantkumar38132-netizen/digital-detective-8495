@@ -64,7 +64,7 @@ A compiler processes the complete program source code all at once before the pro
 
 ---
 
-## 6. How I resolved them
+## 6. How I resolved it
 - Confirmed the active Python runtime version using `python3 --version` (`Python 3.9.6`).
 
 
