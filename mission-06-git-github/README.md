@@ -4,8 +4,8 @@
 The objective of this mission is to master version control and team collaboration workflows:
 - Understand the core Git workflow: checking status, staging modifications, committing snapshots, and viewing commit logs.
 - Differentiate clearly between the staging area (`git add`) and the repository commit history (`git commit`).
-- Create and publish an isolated feature branch (`update-about`) to update documentation.
-- Open, document, and review a Pull Request (PR) on GitHub, and merge changes back into the `main` branch.
+- Create and publish an isolated feature branch `update-about` to update documentation.
+- Open, document, and review a Pull Request (PR) on GitHub, and merge changes back into the `master` branch.
 - Compile a comprehensive Git command glossary for everyday development operations.
 
 ---
@@ -13,7 +13,7 @@ The objective of this mission is to master version control and team collaboratio
 ## 2. Work completed
 - **Task 6.1:** Analyzed and documented the four primary Git workflow operations and clarified the distinction between staging and committing.
 - **Task 6.2:** Created the branch `update-about`, added the "My Learning" section to the root `README.md`, committed the update, and published the branch to GitHub.
-- **Task 6.3:** Created a Pull Request comparing `update-about` against `main` on GitHub, verified the diff, completed the merge, and synced local `main`.
+- **Task 6.3:** Created a Pull Request comparing `update-about` against `master` on GitHub, verified the diff, completed the merge, and synced local `master`.
 - **Task 6.4:** Assembled a 9-command Git glossary explaining daily version-control operations.
 
 ---
@@ -28,8 +28,8 @@ The objective of this mission is to master version control and team collaboratio
 | `git log --oneline` | Displays a compact chronological history of previous commits. |
 | `git checkout -b <branch>` | Creates and immediately switches to a new local branch. |
 | `git push -u origin <branch>` | Uploads a local branch and its commits to the remote GitHub repository. |
-| `git checkout main` / `git switch main` | Switches the active working branch back to `main`. |
-| `git pull origin main` | Fetches and merges the latest updates from the remote GitHub branch. |
+| `git checkout master` / `git switch master` | Switches the active working branch back to `main`. |
+| `git pull origin master` | Fetches and merges the latest updates from the remote GitHub branch. |
 | **GitHub Web UI** | Used to inspect branch comparisons, open Pull Requests, and review code diffs. |
 
 ---
@@ -54,15 +54,15 @@ The objective of this mission is to master version control and team collaboratio
 ### Task 6.2 & 6.3 — Branches and Pull Requests
 
 #### Definitions and Purpose
-- **What is a branch?** A branch is an independent, lightweight movable pointer along the line of commits. It allows a developer to diverge from the main codebase (`main`) to build features, fix bugs, or experiment in isolation without breaking the working production code.
-- **What is a Pull Request (PR)?** A Pull Request is a collaborative GitHub feature where a developer proposes merging their feature branch into another branch (such as `main`). It provides a dedicated space for peer code review, discussion, automated testing, and diff inspection before changes are accepted.
+- **What is a branch?** A branch is an independent, lightweight movable pointer along the line of commits. It allows a developer to diverge from the main codebase to build features, fix bugs, or experiment in isolation without breaking the working production code.
+- **What is a Pull Request (PR)?** A Pull Request is a collaborative GitHub feature where a developer proposes merging their feature branch into another branch. It provides a dedicated space for peer code review, discussion, automated testing, and diff inspection before changes are accepted.
 - **Why they are essential for collaboration:** Without branches and PRs, multiple developers working on the same repository would constantly overwrite each other's code, commit broken work into production, and struggle with merge conflicts. Branches allow parallel, conflict-free development.
 
 #### GitHub PR Record:
 - **Feature Branch Created:** `update-about`
-- **Target Branch:** `main`
+- **Target Branch:** `master`
 - **Changes Proposed:** Added the "My Learning" overview to the root `README.md`.
-- **Pull Request Status:** Completed and Merged into `main` on GitHub (local `main` updated via `git pull origin main`).
+- **Pull Request Status:** Completed and Merged into `master` on GitHub, local `master` updated via `git pull origin master`.
 
 ---
 
@@ -84,19 +84,19 @@ The objective of this mission is to master version control and team collaboratio
 
 ## 5. Difficulties faced
 - Understanding the difference between local branches on the computer and remote branches on GitHub.
-- Ensuring that after merging the Pull Request on GitHub, the local `main` branch was synchronized properly.
+- Ensuring that after merging the Pull Request on GitHub, the local `master` branch was synchronized properly.
 
 ---
 
 ## 6. How I resolved them
 - Used `git push -u origin update-about` to establish upstream tracking so GitHub recognized the branch.
-- Switched back to `main` locally using `git checkout main` and pulled the merged changes down using `git pull origin main`.
+- Switched back to `master` locally using `git checkout master` and pulled the merged changes down using `git pull origin master`.
 
 ---
 
 ## 7. Evidence / files
 - Root `README.md`: Updated with the "My Learning" section via branch `update-about`.
-- GitHub Pull Request: Branch `update-about` created, compared, and merged into `main`.
+- GitHub Pull Request: Branch `update-about` created, compared, and merged into `master`.
 
 ---
 
